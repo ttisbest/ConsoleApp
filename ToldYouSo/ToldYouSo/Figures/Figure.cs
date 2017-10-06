@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToldYouSo.Figures
 {
-    class figure
+    class Figure
     {
     }
 }

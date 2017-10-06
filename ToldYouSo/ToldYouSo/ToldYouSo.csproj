@@ -43,11 +43,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleSettings\ConsoleSettings.cs" />
+    <Compile Include="Figures\Figure.cs" />
+    <Compile Include="Figures\Star.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Animations\" />
+    <Folder Include="Game\" />
+    <Folder Include="Paint\" />
+    <Folder Include="Sounds\" />
+    <Folder Include="Text\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
