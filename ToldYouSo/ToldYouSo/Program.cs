@@ -10,7 +10,14 @@ namespace ToldYouSo
     {
         static void Main(string[] args)
         {
-            
+            // maak de window goed
+            ConsoleSettings.ConsoleSettings con = new ConsoleSettings.ConsoleSettings();
+            con.makeScreen();
+            Console.Read();
+            // run intro
+            // start intro kun je skippen
+            // load menu
+            // run game
         }
     }
 }
