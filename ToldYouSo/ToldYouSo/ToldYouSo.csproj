@@ -45,6 +45,9 @@
     <Compile Include="ConsoleSettings\ConsoleSettings.cs" />
     <Compile Include="Figures\Figure.cs" />
     <Compile Include="Figures\Star.cs" />
+    <Compile Include="Game\Game.cs" />
+    <Compile Include="Game\Levels\IntroductionLevel.cs" />
+    <Compile Include="Game\Interactions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Animations\" />
-    <Folder Include="Game\" />
+    <Folder Include="Game\Screens\" />
     <Folder Include="Paint\" />
     <Folder Include="Sounds\" />
     <Folder Include="Text\" />
