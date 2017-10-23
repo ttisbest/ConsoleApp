@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace ToldYouSo.Game
 {
@@ -12,6 +13,8 @@ namespace ToldYouSo.Game
         {
             // load menu
             // load ship
+            // start key lissener
+            Thread EventLister = new Thread(KeyListen.StartKeyListen);
             return 0; //return next fase
         }
         public static void StartUpGame()
